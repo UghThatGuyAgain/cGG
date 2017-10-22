@@ -1,8 +1,8 @@
 const {cGG} = require("./main.js")
-const {config} = require("./settings.js")
+const {key} = require("./settings.js")
 const assert = require("assert")
 
-const api = new cGG(config.testingKey)
+const api = new cGG(key.testingKey)
 
 describe("cGG", () => {
   describe("#champions()", () => {
