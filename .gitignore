@@ -1,3 +1,9 @@
-# Main file
+# All
+.idea
+.idea/
+settings.ts
+
+# JS Counterparts
 main.js
-src/
+tests.js
+settings.js
