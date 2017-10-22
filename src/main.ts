@@ -17,7 +17,7 @@ class cGG {
     Object.keys(tags).forEach(key => {
       params += "&" + key + "=" + tags[key]
     })
-    return request(`http://api.champion.gg/v2/champions/${id}/MIDDLE/matchups?elo=SILVER&api_key=${this.key}${params}`)
+    return request(`http://api.champion.gg/v2/champions/${id}/${role}/matchups?elo=SILVER&api_key=${this.key}${params}`)
   }
   matchupsByChamp(id: number, tags = {}) {
     let params = ""

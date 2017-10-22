@@ -1,0 +1,23 @@
+{
+  "name": "cGG",
+  "version": "0.0.2",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  },
+  "description": "A wrapper for the ChampionGG API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UghThatGuyAgain/cGG.git"
+  },
+  "keywords": ["ChampionGG", "wrapper"],
+  "author": "ughthatguyagain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UghThatGuyAgain/cGG/issues"
+  },
+  "homepage": "https://github.com/UghThatGuyAgain/cGG#readme"
+}
