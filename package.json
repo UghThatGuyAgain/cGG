@@ -16,6 +16,7 @@
   "author": "ughthatguyagain",
   "license": "ISC",
   "devDependencies": {
+    "@types/request-promise": "^4.1.38",
     "typescript": "^2.3.2"
   },
   "dependencies": {
