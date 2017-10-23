@@ -1,10 +1,10 @@
 # All
 .idea/
 .idea/vcs.xml
-src/settings.ts
-
-# JS Counterparts
+settings.ts
 node_modules/
 lib/
-
 settings.js
+.git/
+.idea/
+.cGG/

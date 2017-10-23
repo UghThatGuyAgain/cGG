@@ -1,5 +1,5 @@
 const cGG = require("./lib/main.js")
-const {key} = require("./settings.js")
+const {key} = require("../settings.js")
 const assert = require("assert")
 
 const api = new cGG(key.testingKey)

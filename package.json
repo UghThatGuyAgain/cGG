@@ -1,10 +1,10 @@
 {
-  "name": "cGG",
-  "version": "1.0.0",
+  "name": "cgg",
+  "version": "1.0.2",
   "description": "A wrapper for the ChampionGG API.",
-  "main": "src/main.js",
+  "types": "lib/src/main.d.ts",
+  "main": "lib/src/main.js",
   "scripts": {
-    "prepublish": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,11 @@
     "@types/request-promise": "^4.1.38",
     "typescript": "^2.3.2"
   },
+  "peerDependencies": {
+    "@types/bluebird": "^3.5.16"
+  },
   "dependencies": {
+    "@types/request-promise": "^4.1.38",
     "request-promise": "^4.2.2"
   }
 }

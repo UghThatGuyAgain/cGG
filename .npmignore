@@ -1,5 +1,9 @@
 src/test.js
-src/lib/
+settings.ts
+settings.js
 src/settings.ts
 src/settings.js
-src/
+lib/src/settings.js
+.git/
+.idea/
+.cGG/
