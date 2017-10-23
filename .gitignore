@@ -4,5 +4,7 @@
 src/settings.ts
 
 # JS Counterparts
+node_modules/
+lib/
 
 settings.js
