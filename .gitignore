@@ -2,8 +2,7 @@
 .idea/
 .idea/vcs.xml
 src/settings.ts
-test.js
+
 # JS Counterparts
-main.js
-tests.js
+
 settings.js

@@ -49,4 +49,4 @@ class cGG {
   }
 }
 
-export {cGG};
+export {cGG as cGG};

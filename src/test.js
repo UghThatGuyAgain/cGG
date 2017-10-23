@@ -1,4 +1,4 @@
-const {cGG} = require("./main.js")
+const cGG = require("./lib/main.js")
 const {key} = require("./settings.js")
 const assert = require("assert")
 

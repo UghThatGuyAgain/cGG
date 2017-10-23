@@ -52,7 +52,7 @@ Note: These descriptions are taken directly from the ChampionGG website.
     * Returns general site information.
 * `overall()`
   * Parameters: `(Optional Tags)`
-    * **"elo":** 'BRONZE', 'SILVER', 'GOLD', 'PLATINUM', 'PLATINUM,DIAMOND,MASTER,CHALLENGER'
+  * **"elo":** 'BRONZE', 'SILVER', 'GOLD', 'PLATINUM', 'PLATINUM,DIAMOND,MASTER,CHALLENGER'
     * Returns overall performance champ data sets (as in ChampionGG landing page)
 
 ## ChampionGG Documentation
