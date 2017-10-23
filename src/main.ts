@@ -1,46 +1,50 @@
 import * as request from "request-promise"
 
-class cGG {
+export interface ITags {
+  [key: string]: string;
+}
+
+export class cGG {
   key: string
   constructor(userInput: string) {
     this.key = userInput
   }
-  champions(tags = {}) {
+  champions(tags: ITags = {}) {
     let params = ""
     Object.keys(tags).forEach(key => {
       params += "&" + key + "=" + tags[key]
     })
     return request(`http://api.champion.gg/v2/champions?api_key=${this.key}${params}`)
   }
-  matchupsByRole(id: number, role: string, tags = {}) {
+  matchupsByRole(id: number, role: string, tags: ITags = {}) {
     let params = ""
     Object.keys(tags).forEach(key => {
       params += "&" + key + "=" + tags[key]
     })
     return request(`http://api.champion.gg/v2/champions/${id}/${role}/matchups?elo=SILVER&api_key=${this.key}${params}`)
   }
-  matchupsByChamp(id: number, tags = {}) {
+  matchupsByChamp(id: number, tags: ITags = {}) {
     let params = ""
     Object.keys(tags).forEach(key => {
       params += "&" + key + "=" + tags[key]
     })
     return request(`http://api.champion.gg/v2/champions/${id}/matchups?api_key=${this.key}${params}`)
   }
-  averagesByChampion(id: number, tags = {}) {
+  averagesByChampion(id: number, tags: ITags = {}) {
     let params = ""
     Object.keys(tags).forEach(key => {
       params += "&" + key + "=" + tags[key]
     })
     return request(`http://api.champion.gg/v2/champions/${id}?api_key=${this.key}${params}`)
   }
-  generalSiteInformation(tags = {}) {
+  generalSiteInformation(tags: ITags = {}) {
     let params = ""
     Object.keys(tags).forEach(key => {
       params += "&" + key + "=" + tags[key]
     })
     return request(`http://api.champion.gg/v2/general?api_key=${this.key}${params}`)
   }
-  overall(tags = {}) {
+  overall(tags: ITags = {}) {
     let params = ""
     Object.keys(tags).forEach(key => {
       params += "&" + key + "=" + tags[key]
@@ -48,5 +52,3 @@ class cGG {
     return request(`http://api.champion.gg/v2/overall?api_key=${this.key}${params}`)
   }
 }
-
-export {cGG as cGG};
