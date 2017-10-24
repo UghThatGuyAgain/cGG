@@ -8,7 +8,9 @@ Using NPM,
 
 Then, you can require it in your file as such:
 ```file.js
-const cGG = require("cGG")
+const cGG = require("cGG").cGG
+// OR
+const {cGG} = require("cGG")
 // Don't forget to initialize it in a variable!
 // For now, we'll use 'api' for the documents.
 const api = new cGG("insert-your-key")
