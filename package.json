@@ -2,6 +2,11 @@
   "name": "cgg",
   "version": "1.0.4",
   "description": "A wrapper for the ChampionGG API.",
+  "homepage": "https://github.com/UghThatGuyAgain/cGG",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UghThatGuyAgain/cGG"
+  },
   "main": "lib/src/main.js",
   "types": "lib/src/main.d.ts",
   "scripts": {
