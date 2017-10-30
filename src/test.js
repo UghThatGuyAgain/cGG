@@ -1,6 +1,7 @@
-const cGG = require("./lib/main.js")
+const {cGG} = require("./main.js")
 const {key} = require("../settings.js")
 const assert = require("assert")
+const describe = require("mocha")
 
 const api = new cGG(key.testingKey)
 

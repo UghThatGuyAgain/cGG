@@ -4,6 +4,7 @@ settings.js
 src/settings.ts
 src/settings.js
 lib/src/settings.js
+lib/src/settings.d.ts
 .git/
 .idea/
 .cGG/

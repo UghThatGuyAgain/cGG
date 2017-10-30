@@ -2,6 +2,7 @@
 .idea/
 .idea/vcs.xml
 settings.ts
+lib/src/settings.d.ts
 node_modules/
 lib/
 settings.js
