@@ -1,6 +1,6 @@
 {
   "name": "cgg",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A wrapper for the ChampionGG API.",
   "homepage": "https://github.com/UghThatGuyAgain/cGG",
   "repository": {
@@ -21,14 +21,6 @@
   "author": "ughthatguyagain",
   "license": "ISC",
   "devDependencies": {
-    "@types/request-promise": "^4.1.38",
     "typescript": "^2.3.2"
-  },
-  "peerDependencies": {
-    "@types/bluebird": "^3.5.16"
-  },
-  "dependencies": {
-    "@types/request-promise": "^4.1.38",
-    "request-promise": "^4.2.2"
   }
 }
