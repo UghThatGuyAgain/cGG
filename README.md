@@ -95,6 +95,6 @@ For example, adding the kda, damage, and minion filters will only give you repon
 **abriged**: Same here. I'll more than likely take any description.
 
 ## Notes
-I did _not_ include rate limiting in this library. I found it unnecessary, as I believe that anyone who wishes to use this should know how the rate limit works (which, as of 10/29/17 is 3000 requests per hour and 50 per 10 seconds.) Make sure to respect these limits, otherwise your key will more than likely get blacklisted and be disabled.
+I did _not_ include rate limiting in this library. I found it unnecessary, as I believe that anyone who wishes to use this should know how the rate limit works (which, as of 10/29/17 is 3000 requests per 50 minutes and 50 requests per 10 seconds.) Make sure to respect these limits, otherwise your key will more than likely get blacklisted and be disabled.
  
 Aside from this, I don't believe I'll be adding any error handling. It's a very minimalistic library that's easy to use. I see not a reason why even an inexperienced developer shouldn't be able to find their own mistakes. With that being said, I'd like to make sure that you check your code. Make sure your tags have colons, a trailing comma between each one, are spelled correctly and are in quotes.

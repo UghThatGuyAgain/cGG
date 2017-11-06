@@ -1,6 +1,6 @@
 {
   "name": "cgg",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A wrapper for the ChampionGG API.",
   "homepage": "https://github.com/UghThatGuyAgain/cGG",
   "repository": {
