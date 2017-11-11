@@ -57,7 +57,7 @@ Note: These descriptions are taken directly from the ChampionGG website.
     * **"skip":** *Integer*
     * **"limit":** *Integer*
   * Returns matchups for a specific champ.
-* `averagesByChamp()`
+* `averagesByChampion()`
   * Parameters: `Integer: championId`, `(Optional Tags)`
      * **"limit":** *Integer*
      * **"skip":** *Integer*
